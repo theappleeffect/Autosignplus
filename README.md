@@ -1,6 +1,7 @@
 # Autosignplus
 
 idk what to put here
+
 Features:
 - Multiple named presets with cycle modes (FIXED/SEQUENTIAL/RANDOM)
 - Color codes via & prefix
