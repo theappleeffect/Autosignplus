@@ -1,0 +1,9 @@
+{
+  "key.category.autosign.main": "AutoSign",
+  "key.autosign.toggle": "Toggle AutoSign",
+  "key.autosign.config": "Open AutoSign Config",
+  "key.autosign.next": "AutoSign — Next Preset",
+  "key.autosign.prev": "AutoSign — Previous Preset",
+  "key.autosign.hud": "AutoSign — Toggle HUD",
+  "key.autosign.mode": "AutoSign — Cycle Mode"
+}

@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "autosign",
+	"version": "${version}",
+	"name": "AutoSign",
+	"description": "Auto-fills and signs signs with customizable presets, cycle modes, color codes, HUD overlay, and in-game config.",
+	"authors": [
+		"sammy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/autosign/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "sammyuwu.SammysBedrockNoRender",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "sammyuwu.client.SammysBedrockNoRenderClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"autosign.mixins.json",
+		{
+			"config": "autosign.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
